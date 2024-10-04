@@ -36,6 +36,79 @@ p{
 
 
 
-.grupo{
+
+.sistemas{
+    background-color: #088000;
+    border-collapse: collapse;
+}
+
+.seguretat{
+    background-color: #84818E;
+    border-collapse: collapse;
+}
+
+.serveis{
+    background-color: #290087;
+    border-collapse: collapse;
+}
+
+.empresa{
+    background-color: #4ABD8C;
+    border-collapse: collapse;
+}
+
+.web{
+    background-color: #8DEE00;
+    border-collapse: collapse;
+}
+
+.pati{
+    background-color: cornflowerblue;
+    border-collapse: collapse;
+}
+
+.lunes{
+    background-color: #FFB90F;
+    border-collapse: collapse;
+}
+
+.martes{
+    background-color: #7569df;
+    border-collapse: collapse;
+}
+
+.miercoles{
+    background-color: #caeec9;
+    border-collapse: collapse;
+}
+
+.jueves{
+    background-color: #119400;
+    border-collapse: collapse;
+}
+
+.viernes{
+    background-color: #ff0000;
+    border-collapse: collapse;
+}
+
+.hora{
+    background-color: bisque;
+    border-collapse: collapse;
+}
+
+
+
+table {
+    border-collapse: collapse; /* Combina los bordes */
+    border-spacing: 3; /* Elimina los espacios blancos entre celdas */
+}
+
+td, th {
+    border: none
+    margin: 7px; /* Sin margen adicional */
+    padding: 9; /* Sin padding o puedes ajustarlo si lo necesitas */
     text-align: center;
 }
+
+
