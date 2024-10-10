@@ -2,7 +2,11 @@ h2{
     color: green;
 }
 
-h3{
-    color: blue;
+ul {
     list-style-type: none;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
 }
