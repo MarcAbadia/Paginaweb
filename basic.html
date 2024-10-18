@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic</title>
+    <link rel="stylesheet" href="css/basic.css">
 </head>
 <body>
-    <header>
-        <div>Marc</div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="contacto.html">Contacto</a>
-            <a href="cursos.html">Cursos</a>
-            <a href="horari.html">Horario</a>
-            <a href="curriculum.html">Curriculum</a>
-        </nav>
-        <h1>Welcome to Our Website!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae orci vel neque tincidunt pharetra. Duis vel neque vel arcu malesuada dictum non id dui.</p>
-        <a href="cursos.html">Learn More</a>
+    <header class="container">
+        <div class="top">
+            <div class="logo">
+                <div>Marc</div>
+                <div>logo</div>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="cursos.html">Cursos</a>
+                <a href="horari.html">Horario</a>
+                <a href="curriculum.html">Curriculum</a>
+            </nav>
+        </div>
+        <div class="hero">
+            <h1>Welcome to Our Website!</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet, consec</p>
+            <a href="cursos.html">Learn More</a>
+        </div>
     </header>
-    <main>
-        <section>
+    <main class="container">
+        <section class="exp">
             <h2>Servicios</h2>
             <ul>
                 <li>Service 1</li>
@@ -29,19 +37,21 @@
                 <li>Service 4</li>
             </ul>
         </section>
-        <section>
+        <section class="work">
             <h2>Experiencia laboral</h2>
             <article>
                 <h3>Article Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae orci vel neque tincidunt pharetra. Duis vel neque vel arcu malesuada dictum non id dui.</p>
+                <p>Lorem ipsum dolor stum non id dui.</p>
                 <a href="curriculum.html">Read More</a>
             </article>
             <article>
                 <h3>Article Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae orci vel neque tincidunt pharetra. Duis vel neque vel arcu malesuada
+                <p>Lorem ipsed vitaevel arcu malesuada
                     dictum non id dui.</p>
                 <a href="#">Read More</a>
-        <section>
+            </article> <!-- Cierre del artículo corregido -->
+        </section>
+        <section class="education">
             <h2>Educación</h2>
             <p>lorem ipsum lorem ipsum lorem</p>
             <p>lorem ipsum lorem</p>
@@ -53,22 +63,24 @@
                 <li>lorem</li>
             </ul>
         </section>
+    </main>
         <section>
             <h2>Reviews</h2>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur</p>
-                <p>lorem lorem lorem</p>
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet</p>
-                <p>lorem lorem lorem</p>
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet</p>
-                <p>lorem lorem lorem</p>
-            </div>
+            <section class="reviews">
+                <div class="primero">
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <p>lorem lorem lorem</p>
+                </div>
+                <div class="segundo">
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <p>lorem lorem lorem</p>
+                </div>
+                <div class="tercero">
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <p>lorem lorem lorem</p>
+                </div>
+            </section>
         </section>
-    </main>
     <footer>
         <p>Creditos a Marc</p>
     </footer>
