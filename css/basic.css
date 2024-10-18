@@ -38,7 +38,7 @@ a{
 }
 
 a:hover{
-    color: #007BFF;
+    color: blue;
 }
 
 ul{
@@ -78,7 +78,7 @@ img{
 }
 
 header{
-    background-color: darkcyan;
+    background-color: cadetblue;
     padding-bottom: 5rem;
     padding: 2rem 0; /* Espaciado interno dentro del header */
     margin-bottom: 2rem; /* Espacio debajo del header */
