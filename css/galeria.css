@@ -1,29 +1,59 @@
-
-
-img{
-    width: 200px;
-    object-fit: cover;
-    height: 200px;
-    display: block;
-}
-
-nav{
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 250, 143);
+    margin: 0;
+    padding: 0;
     display: flex;
-    width: 300px;
-    height: 20vh;
-    background-color: lightgray;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
 
-.galeria{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 0rem;
-    height: 70vh;
-    margin: 0;
-    padding: 0 auto;
-    width: 100vw;
+/* Estilo del header */
+header.container {
+    background-color: rgb(202, 202, 90);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
 }
 
+/* Caja de navegación */
+.nav-bar {
+    background-color: #fff; 
+    border: 2px solid purple; 
+    display: inline-block;
+    padding: 10px 20px; 
+    border-radius: 8px; 
+}
+
+/* Estilo de los enlaces */
+.nav-bar a {
+    color: purple;
+    font-weight: bold;
+    margin: 0 15px; /* Separación entre los enlaces */
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilo de la galería */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajuste para que se llenen con tamaño mínimo de 200px */
+    gap: 10px;
+    max-width: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo de las imágenes */
+.galeria img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    image-rendering: crisp-edges; /* Mejora definición */
+}
